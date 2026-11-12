@@ -8,9 +8,42 @@
 <body>
     <h1>Mis tareas de hoy</h1>
 
+<!-- El formulario y sus campos -->
+<form>
+  <input type="text">
+</form>
+
+<!-- Cada campo con su etiqueta -->
+<label for="titulo">Título de la tarea</label>
+<input type="text" id="titulo">
+
+<!-- Otros campos del panel -->
+
+<label for="prioridad">Prioridad</label>
+<select id="prioridad">
+  <option>baja</option>
+  <option>media</option>
+  <option>alta</option>
+</select>
+
+<!-- Agrupar campos relacionados: fieldset y legend-->
+
+<fieldset>
+  <legend>Prioridad</legend>
+  <label><input type="radio" name="prioridad"> Baja</label>
+  <label><input type="radio" name="prioridad"> Alta</label>
+</fieldset>
+
+<!-- Atributos que ayudan al campo -->
+
+<input type="text" id="titulo" required maxlength="80">
+
+
 <script>
     console.log("Hola, Luis!");
 </script>
     
+
+
 </body>
 </html>
