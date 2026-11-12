@@ -6,12 +6,29 @@
     <title>Panel de Actividades</title>
 </head>
 <body>
-  
+
+<!-- MODULO 0 -->
     <h1>Mis tareas de hoy</h1>
 
 <script>
     console.log("Hola, Luis!");
 </script>
-    
+
+<!-- MODULO 1 -->
+
+<form>
+  <label for="titulo">Título de la tarea</label>
+  <input type="text" id="titulo" required maxlength="80">
+  <label for="descripcion">Descripción</label>
+  <textarea id="descripcion"></textarea>
+  <label for="prioridad">Prioridad</label>
+  <select id="prioridad">
+    <option>baja</option>
+    <option>media</option>
+    <option>alta</option>
+  </select>
+  <button>Crear tarea</button>
+</form>
+
 </body>
 </html>
