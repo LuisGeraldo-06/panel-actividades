@@ -1,2 +1,2 @@
 # panel-actividades
-ITLA
+Luis Geraldo Santana Sanchez - ITLA
